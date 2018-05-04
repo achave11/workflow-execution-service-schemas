@@ -1,9 +1,16 @@
 openapi: 3.0.0
+servers:
+  - url: http://wes.ucsc-cgp-dev.org:8080/ga4gh/wes/v1
 info:
   title: Workflow Execution Service
   version: 0.2.1
   x-implementationLanguage: en
   termsOfService: https://www.ga4gh.org/policies/termsandconditions.html
+  contact:
+    name: David Steinberg
+    email: davidcs@ucsc.edu
+tags:
+- name: NIHdatacommons
 paths:
   /service-info:
     get:
