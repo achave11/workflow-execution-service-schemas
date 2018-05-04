@@ -2,6 +2,8 @@ openapi: 3.0.0
 info:
   title: Workflow Execution Service
   version: 0.2.1
+  x-implementationLanguage: en
+  termsOfService: https://www.ga4gh.org/policies/termsandconditions.html
 paths:
   /service-info:
     get:
