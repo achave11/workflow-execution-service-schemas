@@ -3,10 +3,14 @@ servers:
   - url: http://wes.ucsc-cgp-dev.org:8080/ga4gh/wes/v1
 info:
   title: Workflow Execution Service
+  description: A minimal common API which allows users to make workflow requests programmatically,
+   adding the ability to scale up.
   version: 0.2.1
   x-implementationLanguage: en
   termsOfService: https://www.ga4gh.org/policies/termsandconditions.html
   contact:
+    name: Abraham Chavez
+    email: achave11@ucsc.edu
     name: David Steinberg
     email: davidcs@ucsc.edu
 tags:
