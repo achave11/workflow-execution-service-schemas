@@ -9,10 +9,9 @@ info:
   x-implementationLanguage: en
   termsOfService: https://www.ga4gh.org/policies/termsandconditions.html
   contact:
-    name: Abraham Chavez
-    email: achave11@ucsc.edu
-    name: David Steinberg
-    email: davidcs@ucsc.edu
+    - name: Abraham Chavez
+      email: achave11@ucsc.edu
+
 tags:
 - name: NIHdatacommons
 paths:
