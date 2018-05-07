@@ -2,7 +2,7 @@ openapi: 3.0.0
 servers:
   - url: http://wes.ucsc-cgp-dev.org:8080/ga4gh/wes/v1
 info:
-  title: Workflow Execution Service
+  title: Sandbox Workflow Execution Service
   description: A minimal common API which allows users to make workflow requests programmatically,
    adding the ability to scale up.
   version: 0.2.1
