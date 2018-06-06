@@ -1,6 +1,4 @@
 openapi: 3.0.0
-servers:
-  - url: http://wes.ucsc-cgp-dev.org:8080/ga4gh/wes/v1
 info:
   title: Sandbox Workflow Execution Service
   description: A minimal common API which allows users to make workflow requests programmatically,
@@ -13,8 +11,11 @@ info:
     email: achave11@ucsc.edu
     name: David Steinberg
     email: davidcs@ucsc.edu
+servers:
+  - url: http://wes.ucsc-cgp-dev.org:8080/ga4gh/wes/v1
 tags:
 - name: NIHdatacommons
+  description: A shared virtual space where scientists can work with the digital objects of biomedical research such as data and analytical tools.
 paths:
   /service-info:
     get:
