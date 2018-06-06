@@ -340,8 +340,6 @@ paths:
             type: string
       tags:
         - WorkflowExecutionService
-servers:
-  - url: /ga4gh/wes/v1
 components:
   schemas:
     DefaultWorkflowEngineParameter:
